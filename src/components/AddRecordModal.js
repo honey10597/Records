@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import {
-    Keyboard, 
-    ScrollView, 
+    Keyboard,
+    ScrollView,
     View,
     StyleSheet
 } from 'react-native';
@@ -10,7 +10,7 @@ import ReactNativeModal from 'react-native-modal';
 import strings from '../constants/lang';
 import colors from '../styles/colors';
 import { moderateScale } from '../styles/responsiveSize';
-import { checkAddRecordsValidations  } from '../utils/validations';
+import { checkAddRecordsValidations } from '../utils/validations';
 import CommonButton from './CommonButton';
 import CommonTextInput from './CommonTextInput';
 
@@ -151,7 +151,7 @@ const styles = StyleSheet.create({
         borderRadius: moderateScale(16),
         padding: moderateScale(16)
     },
-    buttonView:{
+    buttonView: {
         marginTop: moderateScale(48),
         paddingVertical: moderateScale(14)
     }

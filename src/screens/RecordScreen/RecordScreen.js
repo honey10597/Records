@@ -199,7 +199,10 @@ const RecordScreen = (props) => {
                 isVisible={showAddRecordModal}
                 editData={holdDataForEdit}
                 isEditRecord={holdDataForEdit != "" ? true : false}
-                closeModal={() => setShowAddRecordModal(false)}
+                closeModal={() => {
+                    setHoldDataForEdit("")
+                    setShowAddRecordModal(false)
+                }}
                 getData={_handleRecord}
             />
         </WrapperContainer>
