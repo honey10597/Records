@@ -1,0 +1,4 @@
+export default {
+  SAVE_RECORD: "SAVE_RECORD",
+  CLEAR_RECORD: "CLEAR_RECORD",
+};
