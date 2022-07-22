@@ -6,7 +6,6 @@ import store from './src/redux/store';
 import { RecordScreen } from "./src/screens"
 
 const App = (props) => {
-
   useEffect(() => {
     if (!__DEV__) {
       console.log = () => { };
